@@ -1,0 +1,117 @@
+.top-header{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ebebeb;
+	background-color: white;
+	position: fixed;
+	/*background-color: red;*/
+}
+.d-flex{
+	display: flex;
+}
+.name-logo{
+	padding-top: 2.5rem;
+	padding-bottom: 0.5rem;
+}
+.this-name-logo{
+	font-size: 30px;
+	font-family: Airbnb Cereal App;
+}
+.left-header{
+	margin-right: 75rem;
+	padding-left: 2rem;
+}
+.but-button{
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.add-button{
+	width: 140px;
+	height: 50px;
+	border-style: none;
+	background-color: #FF8FB2;
+	border-radius: 10px;
+}
+.add-menu{
+	border-radius: 20px;
+}
+.add-modal{
+	padding-top: 0.5rem;
+	font-style: bold;
+}
+.form-place{
+	padding-left: 15rem;
+	padding-top: 2rem;
+	padding-right: 15rem;
+	padding-bottom: 2rem;
+}
+.control-form{
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	border-style: none;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.modal-add-button{
+	width: 140px;
+	height: 50px;
+	border-style: none;
+	background-color: #FF8FB2;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.button-bottom{
+	padding-left:  30rem;
+}
+.table-form{
+	padding-top: 20rem;
+	padding-left: 40rem;
+	padding-right: 40rem;
+	/*background-color: red;*/
+}
+.table-in{
+	padding-left: 30rem;
+	padding-right: 30rem;
+}
+table{
+	border: 2px solid #ebebeb;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+th{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	/*idth: 400px;
+	text-align: center;*/
+	padding-left: 10px;
+	background-color: #CECECE;
+}
+td{
+	padding-top: 20px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 20px;
+
+	width: 400px;
+}
+.span-table{
+	text-align: center;
+	font-size: 16px;
+}
+.table-styles{
+	border-radius: 20px;
+	border-style: 2px solid #ebebeb;
+	/*background-color: red;*/
+}
+.edit{
+	background-color: transparent;
+	border-style: none;
+}

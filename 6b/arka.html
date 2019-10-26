@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> home </title>
+	<link rel="stylesheet" type="text/css" href="newstyle.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="top-header">
+		<div class="d-flex ">
+			<div class="d-flex left-header">
+				<div>
+					<img src="arkaLogo.png">
+				</div>
+				<div class="name-logo">
+					<span class="this-name-logo" style="color: #FF8FB2">ARKADEMI</span>
+					<span class="this-name-logo">COFFEE SHOP</span>
+				</div>
+			</div>	
+			<div class="but-button">
+				<button class="add-button  " onclick="document.getElementById('id01').style.display='block'" >ADD</button>
+			</div>
+		</div>
+		<div id="id01" class="w3-modal">
+		    <div class="w3-modal-content add-menu">
+		      <div class="w3-container">
+		      	<div class="d-flex">
+		      		<span class="add-modal">ADD</span>
+		      		<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">X</span>	
+		      	</div>
+		        <div >
+		        	<div class="form-place">
+		        		<form>
+		        			<div class="container">
+		        				<input type="text" name="" placeholder="nama" class="control-form"><br>
+				        		<input type="text" name="" placeholder="produk" class="control-form"> <br>
+				        		<input type="text" name="" placeholder="kategori" class="control-form"><br>
+				        		<input type="int" name="" placeholder="harga" class="control-form"><br>
+		        			</div>
+			        		<div class="button-bottom">
+			        			<button class="modal-add-button">ADD</button>
+			        		</div>
+			        	</form>
+		        	</div>
+			        	
+		        </div>
+		      </div>
+		    </div>
+		</div>	
+	</div>
+
+	<div class="table-form">
+		<div class="container table-in">
+			<div class="table-styles">
+				<table>
+					<tr>
+						<th>
+							<span class="span-table"> No</span> 
+						</th>
+						<th>
+							<span class="span-table">Cashier </span>	
+						</th>
+						<th>
+							<span class="span-table"> Product </span>
+						</th>
+						<th>
+							<span class="span-table">Category </span>
+						</th>
+						<th>
+							<span class="span-table"> Price</span>
+						</th>
+						<th>
+							<span class="span-table">Action </span>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<span class="span-table">2 </span>
+						</td>
+						<td>
+							<span class="span-table"> Raisa Andriana</span>
+						</td>
+						<td>
+							<span class="span-table">Cake </span>
+						</td>
+						<td>
+							<span class="span-table"> Food</span>
+						</td>
+						<td>
+							<span class="span-table"> Rp. 15.000</span>
+						</td>
+						<td>
+							<span class="span-table"><button class="edit" onclick="document.getElementById('id02').style.display='block'">Edit</button>  | Delete </span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="span-table">3 </span>
+						</td>
+						<td>
+							<span class="span-table"> Raisa Andriana</span>
+						</td>
+						<td>
+							<span class="span-table">Fried Rice </span>
+						</td>
+						<td>
+							<span class="span-table"> Food</span>
+						</td>
+						<td>
+							<span class="span-table"> Rp. 30.000</span>
+						</td>
+						<td>
+							<span class="span-table"><button class="edit" onclick="document.getElementById('id02').style.display='block'">Edit</button>  | Delete </span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="span-table">4 </span>
+						</td>
+						<td>
+							<span class="span-table"> pevita pearce</span>
+						</td>
+						<td>
+							<span class="span-table">gudeg </span>
+						</td>
+						<td>
+							<span class="span-table"> Food</span>
+						</td>
+						<td>
+							<span class="span-table"> Rp. 35.000</span>
+						</td>
+						<td>
+							<span class="span-table"><button class="edit" onclick="document.getElementById('id02').style.display='block'">Edit</button>  | Delete </span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="span-table">5 </span>
+						</td>
+						<td>
+							<span class="span-table"> Joko Purwadi</span>
+						</td>
+						<td>
+							<span class="span-table">Ice Tea </span>
+						</td>
+						<td>
+							<span class="span-table"> Drink</span>
+						</td>
+						<td>
+							<span class="span-table"> Rp. 55.000</span>
+						</td>
+						<td>
+							<span class="span-table"><button class="edit" onclick="document.getElementById('id02').style.display='block'">Edit</button>  | Delete </span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="span-table">6 </span>
+						</td>
+						<td>
+							<span class="span-table"> Raisa Andriana</span>
+						</td>
+						<td>
+							<span class="span-table">Gado-Gado </span>
+						</td>
+						<td>
+							<span class="span-table"> Food</span>
+						</td>
+						<td>
+							<span class="span-table"> Rp. 15.000</span>
+						</td>
+						<td>
+							<span class="span-table"><button class="edit" onclick="document.getElementById('id02').style.display='block'">Edit</button>  | Delete </span>
+						</td>
+					</tr>
+				</table>
+				<div id="id02" class="w3-modal">
+				    <div class="w3-modal-content add-menu">
+				      <div class="w3-container">
+				      	<div class="d-flex">
+				      		<span class="add-modal">EDIT</span>
+				      		<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">X</span>	
+				      	</div>
+				        <div >
+				        	<div class="form-place">
+				        		<form>
+				        			<div class="container">
+				        				<input type="text" name="" placeholder="nama" class="control-form"><br>
+						        		<input type="text" name="" placeholder="produk" class="control-form"> <br>
+						        		<input type="text" name="" placeholder="kategori" class="control-form"><br>
+						        		<input type="int" name="" placeholder="harga" class="control-form"><br>
+				        			</div>
+					        		<div class="button-bottom">
+					        			<button class="modal-add-button">EDIT</button>
+					        		</div>
+					        	</form>
+				        	</div>
+					        	
+				        </div>
+				      </div>
+				    </div>
+				</div>
+			</div>
+				
+		</div>
+			
+	</div>
+</body>
+</html>

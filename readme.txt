@@ -1,0 +1,1 @@
+kegunaan json adalah format standar untuk berkomunikasi/bertukar data antar aplikasi, menyimpan data, dan menyimpan konfigurasi suatu aplikasi
